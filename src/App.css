@@ -2,15 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  margin: 10px;
+  padding: 10px;
+  border-radius:  10px;
+  outline: unset;
+  border: unset;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+  background-color: #AD310B;
+  -webkit-transition: background-color 0.4s ease-in;
+  -ms-transition: background-color 0.4s ease-in;
+  transition: background-color  0.4s ease-in;
 }
 
 .App-header {
